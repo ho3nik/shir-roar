@@ -1,0 +1,6 @@
+{
+ "write_all_peak_hour_TB": 29.96712767488,
+ "write_all_day_TB": 515.07714064384,
+ "hbm_blocks": 6000,
+ "kv_ratio_dsv3_to_70b": 0.214453125
+}

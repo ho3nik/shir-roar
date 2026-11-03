@@ -1,0 +1,10 @@
+trace,seeds,estimator,budget_share,value_share,written_over_budget
+conversation,0-1,online (default),0.05,0.22781375894373088,1.006739846593383
+conversation,0-1,frozen from toolagent_0-1,0.05,0.22639056876405195,0.9999850759149276
+conversation,0-1,warm from toolagent_0-1,0.05,0.22704806640620123,0.9991026082758594
+conversation,0-1,online (default),0.1,0.3211868979172275,1.0444069395697841
+conversation,0-1,frozen from toolagent_0-1,0.1,0.31724588303785983,0.9999915646475678
+conversation,0-1,warm from toolagent_0-1,0.1,0.31816318459566084,1.0043163049522656
+conversation,0-1,online (default),0.2,0.49092890683725554,1.0709004349397488
+conversation,0-1,frozen from toolagent_0-1,0.2,0.4693627049703345,0.998747350163808
+conversation,0-1,warm from toolagent_0-1,0.2,0.47209237179944097,0.9959863944254

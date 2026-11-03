@@ -1,0 +1,14 @@
+{
+ "block_bytes": 167772160,
+ "tick_s": 10.0,
+ "peak_hour_hits": 20805,
+ "peak_tick_hits": 381,
+ "peak_hour_TB": 3.4904997888,
+ "peak_hour_stack_GBs": 0.12119790933333333,
+ "peak_tick_stack_GBs": 0.799014912,
+ "peak_tick_share_of_stack_bw": 0.00049938432,
+ "flash_hits_day2": 244446,
+ "max_reads_per_block": 18,
+ "p99_reads_per_block": 11,
+ "mean_reads_per_read_block": 2.248722772758973
+}

@@ -1,0 +1,11 @@
+{
+ "chosen": "q300 steps2-3-4 base2",
+ "quantum_s": 300.0,
+ "steps": [
+  2,
+  3,
+  4
+ ],
+ "base_k": 2,
+ "default": "q300 steps2-3-4 base1"
+}

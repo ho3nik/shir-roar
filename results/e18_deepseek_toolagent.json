@@ -1,0 +1,18 @@
+{
+ "llama": {
+  "hbm_blocks": 6000,
+  "block_bytes": 167772160,
+  "write_all_bytes_day2": 513155646095360.0,
+  "write_all_skip_partial_bytes_day2": 452017122181120.0
+ },
+ "deepseek": {
+  "hbm_blocks": 27978,
+  "block_bytes": 35979264,
+  "write_all_bytes_day2": 110049271087104.0,
+  "write_all_skip_partial_bytes_day2": 96936304508928.0,
+  "flash_value_s": 5673.504974696809,
+  "hbm_value_s": 158497.05999897138
+ },
+ "ratio_llama_over_deepseek": 4.662962698673373,
+ "kv_ratio": 4.6630236794171225
+}

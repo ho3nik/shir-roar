@@ -1,0 +1,2 @@
+seeds,policy,budget_share,eta,written_share,written_over_budget,max_ahead_share_of_daily_budget,value_share,flash_saved_s,hbm_saved_s,write_all_flash_saved_s,write_all_TB,lam,refined_steps,previous_lam,previous_value_share,previous_written_share
+0-1,static price (hindsight),0.1,,0.098674053813354,0.9867405381335401,0.16627112536069888,0.36419895123795176,21233.671917958767,182814.54331975995,58302.39720840275,513.15564609536,0.9625482272500077,11,0.9916476365115708,0.3416040336497061,0.08620088758228314
