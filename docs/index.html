@@ -17,17 +17,20 @@
 <style>
 :root{
   --bg:#fbfaf7; --fg:#1d1d1f; --muted:#5f5f66; --rule:#e3e0d8; --card:#ffffff;
-  --accent:#8a3b12; --accent-fg:#ffffff; --code:#f2efe8;
+  --accent:#3f6b00; --accent-fg:#ffffff; --code:#f2efe8;
+  --btn:#76b900; --btn-fg:#111111;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#16161a; --fg:#ececef; --muted:#a2a2ab; --rule:#2c2c33; --card:#1d1d22;
-    --accent:#e08a55; --accent-fg:#16161a; --code:#22222a;
+    --accent:#76b900; --accent-fg:#16161a; --code:#22222a;
+    --btn:#76b900; --btn-fg:#111111;
   }
 }
 :root[data-theme="dark"]{
   --bg:#16161a; --fg:#ececef; --muted:#a2a2ab; --rule:#2c2c33; --card:#1d1d22;
-  --accent:#e08a55; --accent-fg:#16161a; --code:#22222a;
+  --accent:#76b900; --accent-fg:#16161a; --code:#22222a;
+  --btn:#76b900; --btn-fg:#111111;
 }
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--fg)}
@@ -40,7 +43,7 @@ h1{font-weight:500;font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 18
 .status{display:inline-block;margin:20px 0 0;padding:6px 12px;border:1px solid var(--rule);border-radius:999px;font:13px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);background:var(--card)}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 40px}
 .btn{font:600 14px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;padding:12px 18px;border-radius:8px;border:1px solid var(--rule);color:var(--fg);background:var(--card)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.btn.primary{background:var(--btn);border-color:var(--btn);color:var(--btn-fg)}
 .btn:hover{border-color:var(--accent)}
 h2{font:600 13px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:44px 0 12px;padding-top:20px;border-top:1px solid var(--rule)}
 p{margin:0 0 14px}
@@ -99,7 +102,7 @@ a{color:var(--accent)}
 <script>
 function copyBib(btn){
   var t=document.getElementById('bib').innerText;
-  try{navigator.clipboard.writeText(t).then(function(){btn.textContent='Copied';setTimeout(function(){btn.textContent='Copy'},1500)})}catch(e){}
+  try{navigator.clipboard.writeText(t).then(function(){btn.textContent='Copied';setTimeout(function(){btn.textContent='Copy BibTeX'},1500)})}catch(e){}
 }
 </script>
 </body>
