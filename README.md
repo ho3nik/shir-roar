@@ -102,5 +102,4 @@ and most skip rows that already exist, so a stopped run can be restarted. Single
 The Mooncake traces (kvcache-ai/Mooncake) and the Qwen-Bailian traces
 (alibaba-edu/qwen-bailian-usagetraces-anon) are released under Apache-2.0; `data/README.md` lists the
 files and how the Qwen traces were converted. WildChat-1M (allenai) is used only through the turn-gap
-statistics in `results/wildchat_gaps.json`. The code in this repository has no licence yet; all rights
-are reserved.
+statistics in `results/wildchat_gaps.json`. The code in this repository has an MIT license. 
